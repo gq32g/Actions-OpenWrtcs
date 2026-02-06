@@ -15,9 +15,7 @@
 
 # Add a feed source
 
-git clone https://github.com/kenzok8/small-package/luci-app-tailscale.git package/luci-app-tailscale
-
-git clone https://github.com/kenzok8/small-package/luci-app-easytier.git package/luci-app-easytier
+echo 'src-git smpackage https://github.com/kenzok8/small-package' >>feeds.conf.default
 
 
 #sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
